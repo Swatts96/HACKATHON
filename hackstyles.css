@@ -1,0 +1,75 @@
+body {
+    background-image: url('SkullKaT_BEACHFRONTBACKGROUND.jpeg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-attachment: fixed; /* Fixed background while scrolling */
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet Ms', 'sans-serif';
+}
+.form-container {
+    width: 800px; /* Adjust the width as needed */
+    margin: auto; /* Center the container horizontally */
+    padding: 5%; /* Add some padding for spacing */
+    border: 1px solid #ccc; /* Add a border for visual separation */
+    border-radius: 10px; /* Add rounded corners */
+    opacity: 95%;
+    background-color: rgb(162, 162, 213);
+}
+form{
+    padding: 15%;
+    margin: 15%;
+    
+}
+form input[type="text"],
+form input[type="email"],
+form input[type="password"] {
+    width: 100%; /* Set the width to 100% for full-width input boxes */
+    padding: 10px; /* Adjust padding for spacing inside the input boxes */
+    font-size: 16px; /* Adjust the font size as needed */
+}
+span{
+    color: rgb(255, 230, 208);
+}
+h1{
+    color: peachpuff;
+    text-align: center;
+    
+    
+}
+
+h2{
+    color: peachpuff;
+    text-align: center;
+    
+}
+button[type=submit]{
+background-color: rgb(255, 196, 119);
+border-radius: 10px;
+color: white;
+font-weight: bold;
+
+}
+label{
+    color:  peachpuff;
+    display: block;
+    border-bottom: 1px solid peachpuff;
+    font-weight:bold;
+    text-align: center;
+
+}
+
+
+
+/* Media query for tablet screens */
+@media (max-width: 768px) {
+    .form-container {
+        width: 80%; /* Adjust width for tablet screens */
+    }
+}
+
+/* Media query for mobile screens */
+@media (max-width: 480px) {
+    .form-container {
+        width: 100%; /* Adjust width for mobile screens */
+        padding: 10px; /* Reduce padding for mobile screens */
+    }
+}
